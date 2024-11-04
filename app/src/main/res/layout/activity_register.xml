@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc"
+    tools:context=".RegisterActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/fylaris"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Student Registraton"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#0d073d"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0D073D"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Name"
+        android:inputType="text"
+        android:paddingBottom="20dp"
+        android:textColor="#0D073D"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#8A8383"
+        android:textColorLink="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0D073D"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingBottom="20dp"
+        android:textColor="#0D073D"
+        android:textColorHint="#8A8383"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/studentID"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0D073D"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Student ID"
+        android:inputType="text"
+        android:paddingBottom="20dp"
+        android:textColor="#0D073D"
+        android:textColorHint="#8A8383"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0D073D"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Date of Birth"
+        android:inputType="date"
+        android:paddingBottom="20dp"
+        android:textColor="#0D073D"
+        android:textColorHint="#8A8383"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0D073D"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Gender"
+        android:inputType="text"
+        android:paddingBottom="20dp"
+        android:textColor="#0D073D"
+        android:textColorHint="#8A8383"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0D073D"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingBottom="20dp"
+        android:textColor="#0D073D"
+        android:textColorHint="#8A8383"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#0d073d"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+
+
+</LinearLayout>
